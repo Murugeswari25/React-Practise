@@ -1,0 +1,217 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+.card{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 20px;
+}
+.image{
+    position: relative;
+}
+.image img{    
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.offer{
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    padding:5px 10px;
+    margin: 0;
+    
+}
+.promotion{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: black;
+    color: white;
+    padding:5px 10px;
+    opacity: 50%;
+    border-radius: 10px;
+}
+.timer{
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+    background: white;
+    color: black;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.restraurant-name{
+    font-size: 32px;
+    font-weight: bold;
+}
+.cuisine{
+    color: grey;
+    font-size: 22px;
+    padding: 15px 5px;
+}
+.max-safety{
+    justify-content: left;
+    font-size: 10px;
+    font-weight: bold;
+    background: orange;
+    margin: 10px ;
+    padding: 5px;
+}
+.delivery{
+    background: green;
+    font-weight: bold;
+    padding: 3px 10px;
+    color: white;
+}
+.text{
+    color: grey;
+    font-size: 18px;
+    padding: 5px;
+}
+.safety{
+    border-top: 1px solid lightgray;
+    display: flex;
+}
+.card2{
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.image2{
+    position: relative;
+}
+.card2 img{
+    width: 900px;
+    border-radius: 20px;
+}
+.img-content{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-content h1{
+    color: white;
+    font-size: 50px;
+}
+.img-content div{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.img-content button{
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+    padding: 15px 33px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.zomato{
+    position: relative;
+    padding: 20px;
+}
+.zomato img{
+    width: 900px;
+    height: 350px
+}
+.zomato-content{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.zomato-content h1{
+    font-size: 60px;
+    font-style: italic;
+    margin: auto;
+}
+.zomato-content div{
+    font-size: 30px;
+    padding: 20px;
+}
+.location{
+    display: flex;
+}
+.location button{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+    padding: 15px 200px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.location div{
+    position: absolute;
+    color: rgb(245, 136, 222);
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.profile-card{
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.bg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.profile {
+    position: absolute;
+    top: 215px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-content h1{
+    font-size: 50px;
+    display: flex;
+    padding: 90px 25px 0px 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.profile-content div{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
