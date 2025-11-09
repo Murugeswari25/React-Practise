@@ -1,5 +1,8 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+
 const heading = React.createElement("h1", {}, "Hello World form React!");
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(heading);
 
 const parent = React.createElement("div", {id: "parent"},
@@ -11,5 +14,5 @@ const parent = React.createElement("div", {id: "parent"},
         React.createElement("p",{}, "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, distinctio!")
     )
 );
-const headings = ReactDOM.createRoot(document.getElementById("headings"));
+const headings = createRoot(document.getElementById("headings"));
 headings.render(parent);

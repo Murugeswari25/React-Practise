@@ -1,0 +1,36 @@
+{
+  "name": "react-practise",
+  "version": "1.0.0",
+  "description": "Learning React4",
+  "keywords": [
+    "React",
+    "React",
+    "practising"
+  ],
+  "homepage": "https://github.com/Murugeswari25/React-Practise#readme",
+  "bugs": {
+    "url": "https://github.com/Murugeswari25/React-Practise/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murugeswari25/React-Practise.git"
+  },
+  "license": "ISC",
+  "author": "Murugeswari",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "test"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
