@@ -17,3 +17,22 @@
 - Tree Shaking - remove unused code for you
 - creates dev and prod bundles
 
+# Food Delivery app
+
+/*
+    *Header
+        - Logo
+        - Nav Items
+    *Body
+        - Search
+        - RestaurantContainer
+        - RestaurantCards
+            - img
+            - Res Name, star rating, description, deleivery time
+    *Footer
+        - Copyright
+        - Links
+        - Address
+        - Contact
+
+*/
