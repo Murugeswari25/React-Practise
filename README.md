@@ -36,3 +36,17 @@
         - Contact
 
 */
+ 
+
+//if no dependency array => useEffect is called on every render
+//if dependency array is empty = [] => useEffect is called initial render(just once)
+//if dependency array is [btnName] => called everytime wheneven btnName is updated.
+
+
+# Redux Toolkit
+    - Install @reduxjs/toolkit and react-redux
+    - Build our store
+    - Connect our store to our app
+    - Slice (CartSlice)
+    - Dispatch(action)
+    - Selector
